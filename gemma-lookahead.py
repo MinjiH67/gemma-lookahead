@@ -132,4 +132,3 @@ input_text = "I am"
 input_ids = tokenizer(input_text, return_tensors='pt').input_ids
 results = generate_lookahead_text(model, tokenizer, input_ids, device=device)
 print(results)
-
